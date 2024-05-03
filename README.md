@@ -1,8 +1,8 @@
 
-# Emotional Dynamics Analysis (Is not scientific and just for learning regression models!!!!!!!!!!!!!!!!!!!!!!!!!!!!)
-
 ## Overview
-This repository contains code and datasets aimed at modeling emotional dynamics such as love and friendship over time using theoretical formulas and machine learning techniques. The models are built using Python and leverage various data science and machine learning libraries to predict and understand how emotional metrics evolve.
+**Note: This repository is intended for educational purposes only and is not based on scientific research. It is designed to help learn and explore regression models using creative, illustrative examples.**
+
+This repository contains code and datasets aimed at modeling emotional dynamics such as love and friendship over time through theoretical formulas. The project utilizes Python along with various data science and machine learning libraries to simulate and understand how hypothetical emotional metrics might evolve if they were quantifiable.
 
 ## Project Structure
 - `models/`: Contains Python scripts for different regression models.
