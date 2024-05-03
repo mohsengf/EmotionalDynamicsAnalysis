@@ -14,25 +14,31 @@ This repository contains code and datasets aimed at modeling emotional dynamics 
 The project uses a set of creatively devised formulas to model the complexities of emotions such as love and friendship over time. These are not empirically derived but serve as illustrative mathematical representations of how such emotions might be quantified and analyzed.
 
 ### Love Over Time
-\[ L(t) = a \cdot e^{r \cdot t} + b \cdot \sin(c \cdot t + d) \]
+```
+L(t) = a * e^(r * t) + b * sin(c * t + d)
+```
 Where:
-- \( L(t) \) is the level of love at time \( t \).
-- \( a \), \( r \) adjust the exponential growth rate.
-- \( b \), \( c \), \( d \) control the oscillatory behavior, representing emotional fluctuations.
+- `L(t)` is the level of love at time `t`.
+- `a`, `r` adjust the exponential growth rate.
+- `b`, `c`, `d` control the oscillatory behavior, representing emotional fluctuations.
 
 ### Friendship Over Time
-\[ F(t) = a \cdot \log(b \cdot t + 1) + c \cdot \cos(d \cdot t + e) \]
+```
+F(t) = a * log(b * t + 1) + c * cos(d * t + e)
+```
 Where:
-- \( F(t) \) represents the level of friendship at time \( t \).
-- \( a \), \( b \) dictate the logarithmic increase.
-- \( c \), \( d \), \( e \) manage the amplitude and frequency of cyclical changes.
+- `F(t)` represents the level of friendship at time `t`.
+- `a`, `b` dictate the logarithmic increase.
+- `c`, `d`, `e` manage the amplitude and frequency of cyclical changes.
 
 ### Depth of Friendship as a Function of Depth of Love
-\[ D(f) = a \cdot \sqrt{f} + b \cdot \sin(c \cdot f + d) \]
+```
+D(f) = a * sqrt(f) + b * sin(c * f + d)
+```
 Where:
-- \( D(f) \) indicates the depth of friendship given the depth of love \( f \).
-- \( a \) modifies the primary growth rate.
-- \( b \), \( c \), \( d \) influence periodic variations.
+- `D(f)` indicates the depth of friendship given the depth of love `f`.
+- `a` modifies the primary growth rate.
+- `b`, `c`, `d` influence periodic variations.
 
 ## Data Description
 The datasets are generated to simulate the behavior of these emotional dynamics, with each dataset containing 500 data points spread across three repetitions to mimic experimental variability.
